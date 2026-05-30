@@ -6,7 +6,6 @@ def load_records():
     except FileNotFoundError:
         return []
 
-
 from datetime import datetime
 
 def add_record(weight, body_fat=None):
@@ -43,7 +42,8 @@ def show_summary(records):
     print(f"Average weight: {avg_weight:.1f} kg")
     print(f"Max weight: {max_weight} kg")
     print(f"Min weight: {min_weight} kg")  
-
+    print("Keep going! Every step counts.")
+   
 def main():
     while True:
         print("\n=== Health Tracker ===")
